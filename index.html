@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     </div>
 
     <h3>center container</h3>
-    <div  class="container">
+    <div class="container">
         This will go upto a given width along with content aligned in center.
     </div>
 
@@ -39,17 +39,21 @@
     <h2>nav</h2>
     <p>Navigation is used on the top of the page and used to get to different pages</p>
 
-    <nav>
-        <div>theBrandName</div>
+    <nav class="navigationbar">
+        <div class="container-fluid"></div>
+        <div class="brand">theBrandName</div>
         <ul>
             <li>
                 home
+                <a href="/" class="active">home</a>
             </li>
             <li>
                 products
+                <a href="/">products</a>
             </li>
             <li>
                 about
+                <a href="/">about</a>
             </li>
         </ul>
     </nav>
@@ -76,7 +80,7 @@
 
     <hr>
 
-     <!-- Header with its corresponding image -->
+    <!-- Header with its corresponding image -->
     <header>
         <img src="images/header-image.svg" />
         <h1> this is heading h1 inside header</h1>
@@ -86,7 +90,7 @@
 
     <!-- Section -->
     <h2> section</h2>
-    <p>  To separate various parts of the webpage.</p>
+    <p> To separate various parts of the webpage.</p>
 
     <section>
         <h2> heading inside section</h2>

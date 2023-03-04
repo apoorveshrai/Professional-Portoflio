@@ -41,3 +41,35 @@ body{
     border-radius: 0.5rem;
     padding: 0.5rem 1rem 0.5rem 1rem;
 }
+
+/** nav **/
+.navigationbar {
+    background-color: var(--primary);
+    padding: 1rem 0rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.navigationbar .brand {
+    font-weight: bold;
+
+}
+
+.navigationbar ul {
+    list-style: none;
+    text-align: right;
+}
+
+.navigationbar li {
+    display: inline-block;
+    padding: 0rem 0.8rem;;
+}
+
+.navigationbar a {
+    text-decoration: none;
+    color: white
+}
+
+.navigationbar .active {
+    font-weight: bold;
+}

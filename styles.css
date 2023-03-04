@@ -106,3 +106,18 @@ hr {
 .offwhite {
     background-color: var(--gray);
 }
+
+/** lists **/
+
+.unordered {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.text-sm {
+    font-size: 0.8rem;
+}

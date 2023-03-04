@@ -1,136 +1,163 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-body{
-    font-family: 'Lora', serif;
-    margin: 0px;
+:root{
+    --off-white-color : #d4d4d8;
+    --theme-color : #164e63;
 }
-
-:root {
-    --primary: #059669;
-    --dark-gray: #475569;
-    --gray:#6B7280;
-}
-
 .container {
     margin: auto;
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 600px;
 }
 
-.container-fluid {
-    padding-left: 1rem;
-    padding-right: 1rem;
-}
-
-.primary-link {
-    text-decoration: none;
-    color: white;
-    background-color: var(--primary);
-    width: max-content;
-    min-width: 150px;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-}
-
-.secondary-link {
-    text-decoration: none;
-    color: var(--primary);
-    border: 1px solid var(--primary);
-    width: max-content;
-    min-width: 150px;
-    border-radius: 0.5rem;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-}
 
 /** nav **/
-.navigationbar {
-    background-color: var(--primary);
-    padding: 1rem 0rem;
+.nav-top {
+    background-color: var(--theme-color);
+    padding: 1rem 0rem 0rem 0rem;
     color: white;
-    border-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
 }
 
-.navigationbar .brand {
+.brand {
     font-weight: bold;
-
-}
-
-.navigationbar ul {
-    list-style: none;
-    text-align: right;
-}
-
-.navigationbar li {
+    letter-spacing: 3px;
+    font-size: larger;
+    padding-left: 1rem;
     display: inline-block;
-    padding: 0rem 0.8rem;;
 }
 
-.navigationbar a {
+.nav-pills {
+    text-align: right;
+    letter-spacing: 3px;
+    font-size: large;
+    display: inline-block;
+}
+
+.nav-top li {
+    display: inline-block;
+    padding: 0rem 0.8rem;
+    ;
+}
+
+
+.nav-top a {
     text-decoration: none;
     color: white
 }
 
-.navigationbar .active {
+.nav-top .active {
     font-weight: bold;
 }
 
-/* section partition */
-hr {
-    margin: 2rem 0;;
-}
 
-/** header **/
-
-.header {
-    color: var(--dark-gray);
-    display: block;
-}
-
-.header img {
-    max-width: 350px;
-    margin: auto;
-    display: block;
-}
-
-/** section **/
-
-.section {
-    padding: 2rem 0rem;
-}
-
-.section h2 {
-    text-align: center;
-}
-
-.offwhite {
-    background-color: var(--gray);
+.nav-bar{
+    text-align: right;
 }
 
 /** lists **/
 
-.unordered {
+.list-non-bullet {
     list-style: none;
+    padding-inline-start: 0px;
 }
 
-.list-inline li {
+.list-item-inline {
     display: inline;
     padding: 0rem 0.5rem;
 }
 
-.text-sm {
-    font-size: 0.8rem;
+
+body {
+    font-family: 'Lora', serif;
+    margin: 0px;
+}
+
+/** header **/
+
+.hero {
+    /* padding: 0rem; */
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+
+}
+
+.hero-img {
+    max-width: 90%;
+    width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--dark-gray);
+}
+
+.heading-inverted {
+    color: var(--theme-color);
+}
+
+/** sections **/
+
+.section {
+    padding: 3rem;
+}
+
+.section h1 {
+    text-align: center;
+
+}
+
+.ow {
+    background-color: var(--off-white-color);
+}
+
+.container-center {
+    max-width: 600px;
+    /* margin: auto; */
+}
+
+/** links **/
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-primary {
+    background-color: var(--theme-color);
+    border-radius: 0.5rem;
+    color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+.link-secondary {
+    color: var(--theme-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--theme-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
+    font-weight: bold;
 }
 
 .footer {
-    background-color: var(--primary);
+    background-color: var(--theme-color);
     color: white;
-    padding: 2rem 0rem;
-    border-top-right-radius: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
     text-align: center;
 }
-.footer .heading {
-    font-weight: bold;
+
+.footer-header{
+    /* font-weight: bold; */
     font-size: larger;
 
 }
@@ -138,3 +165,12 @@ hr {
 .footer ul {
     padding-inline-start: 0px;
 }
+
+footer a{
+    color: white;
+}
+/* ------------------------------------------------ */
+
+
+
+

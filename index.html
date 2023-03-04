@@ -3,133 +3,92 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
     <!-- Navigation section -->
-    <h2>nav</h2>
-    <p>Navigation is used on the top of the page and used to get to different pages</p>
 
-    <nav class="navigationbar">
-        <div class="container-fluid"></div>
-        <div class="brand">theBrandName</div>
-        <ul>
-            <li>
-                <a href="/" class="active">home</a>
-            </li>
-            <li>
-                <a href="/">products</a>
-            </li>
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
-    </nav>
-    <hr>
-
-    <!-- Header with its corresponding image -->
-    <header>
-        <img src="images/header-image.svg" />
-        <h1> this is heading h1 inside header</h1>
-    </header>
-
-    <hr />
+    <nav class="nav-top container">
 
 
-    <h1> Welcome to my component library</h1>
-    <p>I'm buildinig a component library which would make all my projects look good and structured.</p>
+        <div class="brand">Apoorvesh Rai</div>
+        <div class="nav-bar">
+            <ul class="list-non-bullet nav-pills">
 
-    <!-- Containers -->
-    <h2> containers </h2>
-
-    <h3>fluid container</h3>
-    <div class="container-fluid">
-        This will go to the full width of the page with some margin probably.
-    </div>
-
-    <h3>center container</h3>
-    <div class="container">
-        This will go upto a given width along with content aligned in center.
-    </div>
-
-    <hr>
-
-    <!-- Links -->
-    <h2>links</h2>
-
-    <a class="primary-link" href="/"> Primary Link</a>
-    <a class="secondary-link" href="/"> Secondary Link</a>
-
-    <hr>
-
-    <!-- Lists -->
-    <h2>lists</h2>
-
-    <h3>unordered lists</h3>
-    <p>Description</p>
-    <ul class="unordered">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>inline lists</h3>
-    <p>Description</p>
-
-
-    <ul class="unordered list-inline">
-        <li>item one</li>
-        <li>item two</li>
-        <li>item three</li>
-    </ul>
-
-    <h3>reverse ordered lists</h3>
-    <p> </p>
-    <ol reversed>
-        <li>something</li>
-        <li>something else</li>
-        <li>something elser</li>
-    </ol>
-
-    <hr>
-
-    <!-- Section -->
-    <h2> section</h2>
-    <p> To separate various parts of the webpage.</p>
-
-    <h3>normal section</h3>
-    <section class="section">
-        <h2> heading inside section</h2>
-        <p>description of this section</p>
-        <a class="primary-link" href=""> Primary Button</a>
-    </section>
-
-    <h3>offwhite section</h3>
-    <section class="section offwhite">
-        <h2> inside off white section</h2>
-        <p>description of this section</p>
-        <a class="secondary-link" href=""> Secondary Button</a>
-    </section>
-
-    <hr>
-
-    <!-- Footer -->
-    <h2> footer</h2>
-    <footer class="footer container-fluid">
-        <div class="container">
-            <div class="heading">header inside footer</div>
-            <ul class="unordered list-inline">
-                <li>social media link one</li>
-                <li>social media link two</li>
-                <li>social media link three</li>
+                <li class="list-item-inline">
+                    <a href="/" class="active">Home</a>
+                </li>
+    
+                <li class="list-item-inline">
+                    <a href="/">Projects</a>
+                </li>
+    
+                <li class="list-item-inline">
+                    <a href="/">About</a>
+                </li>
             </ul>
         </div>
-    </footer>
+    </nav>
 
-</body>
+
+    <!-- Header with its corresponding image -->
+    <header class="hero">
+        <img class="hero-img" src="images/home.svg" />
+        <h1 class="hero-heading"> Building simple <span class="heading-inverted"> web apps</span></h1>
+    </header>
+
+    <!-- Sections -->
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technical Skills</h1>
+            <p>I'm familiar with C++, HTML5, CSS3, Github, JavaScript, NodeJS, ReactJS, Replit and Web Hosting</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container container-center">
+            <h1>Projects</h1>
+            <p>You can see my projects hosted live here. Its source code is also attached alongside.</p>
+            <a class="link link-primary" href="/projects.html">See Projects</a>
+        </div>
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>blogs</h1>
+            <p>You can read my personal blogs here.</p>
+            <a class="link link-secondary" href="/blogs.html">Read Blogs</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-header">For more information, click here.</div>
+        <ul class="social-links list-non-bullet">
+
+            <li class="list-item-inline">
+                <a class="link" href="">
+                    github
+                </a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="">
+                    twitter
+                </a>
+            </li>
+            
+            <li class="list-item-inline">
+                <a class="link" href="">
+                    linkedin
+                </a>
+            </li>
+
+        </ul>
+    </footer>
 
 </html>

@@ -121,3 +121,20 @@ hr {
 .text-sm {
     font-size: 0.8rem;
 }
+
+.footer {
+    background-color: var(--primary);
+    color: white;
+    padding: 2rem 0rem;
+    border-top-right-radius: 1rem;
+    text-align: center;
+}
+.footer .heading {
+    font-weight: bold;
+    font-size: larger;
+
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}

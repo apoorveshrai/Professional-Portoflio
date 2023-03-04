@@ -2,4 +2,42 @@
 
 body{
     font-family: 'Lora', serif;
+    margin: 0px;
+}
+
+:root {
+    --primary: #059669;
+    --gray: #475569;
+}
+
+.container {
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 600px;
+}
+
+.container-fluid {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.primary-link {
+    text-decoration: none;
+    color: white;
+    background-color: var(--primary);
+    width: max-content;
+    min-width: 150px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.secondary-link {
+    text-decoration: none;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    width: max-content;
+    min-width: 150px;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
 }

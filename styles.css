@@ -176,9 +176,18 @@ body {
     padding-inline-start: 0px;
 }
 
-footer a{
+footer .link{
     color: white;
+    text-align: center;
+    padding: 0rem;
 }
+
+footer img{
+    max-width: 25px;
+    max-height: 23px;
+}
+
+
 /* ------------------------------------------------ */
 
 

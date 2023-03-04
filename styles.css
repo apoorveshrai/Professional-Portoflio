@@ -92,3 +92,17 @@ hr {
     margin: auto;
     display: block;
 }
+
+/** section **/
+
+.section {
+    padding: 2rem 0rem;
+}
+
+.section h2 {
+    text-align: center;
+}
+
+.offwhite {
+    background-color: var(--gray);
+}

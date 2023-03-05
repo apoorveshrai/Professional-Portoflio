@@ -95,9 +95,9 @@ body {
 
 .blog-img {
         /* max-width: 90%; */
-        max-width: 800px;
-        display: block;
-        margin: auto;
+        max-width: 300px;
+        display: inline-block;
+        
         /* padding-top: 5rem;
     padding-bottom: 2rem; */
 }
